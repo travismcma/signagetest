@@ -40,9 +40,7 @@ $(document).ready(function()
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb19.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
 <div id="wb_MediaPlayer1" style="position:absolute;left:0px;top:0px;width:1920px;height:1080px;z-index:1;">
-<video id="MediaPlayer1" autoplay controls muted onended="window.location.href='./index.html';return false;" onloadstart="PlayAudio('MediaPlayer1');return false;">
-<source src="001.mp4" type="video/mp4">
-</video>
+<embed src="001.mp4" id="MediaPlayer1" autostart="true" loop="false" onended="window.location.href='./index.html';return false;" onloadstart="PlayAudio('MediaPlayer1');return false;">
 </div>
 </body>
 </html>
