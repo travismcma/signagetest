@@ -20,3 +20,12 @@ body
    border: 0px solid #DEE2E6;
    border-radius: 0px;
 }
+#wb_MediaPlayer1
+{
+   overflow: hidden !important;
+   position: fixed !important;
+   left: 0 !important;
+   top: 0 !important;
+   width: 100% !important;
+   height: 100% !important;
+}
